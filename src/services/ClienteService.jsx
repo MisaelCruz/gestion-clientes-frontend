@@ -18,6 +18,10 @@ class ClienteService{
     updateCliente(clienteId,cliente){
         return axios.put(CLIENTE_BASE_REST_API_URL + '/' + clienteId,cliente);
     }
+
+    deleteCliente(clienteId){
+        return axios.delete(CLIENTE_BASE_REST_API_URL + '/' + clienteId);
+    }
 }
 
 export default new ClienteService();
