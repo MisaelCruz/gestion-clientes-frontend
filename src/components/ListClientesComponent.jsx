@@ -27,6 +27,7 @@ const ListClientesComponent = () => {
             <th>Nombre</th>
             <th>Apellido</th>
             <th>Email</th>
+            <th>Acciones</th>
             </tr>
         </thead>
         <tbody>
@@ -38,6 +39,7 @@ const ListClientesComponent = () => {
                             <td>{ cliente.nombre}</td>
                             <td>{ cliente.apellido}</td>
                             <td>{ cliente.email}</td>
+                            <td><Link className='btn btn-info' to={ `/edit-clientes/${cliente.id}` }>Actualizar</Link></td>
                         </tr>
                 )
             }
