@@ -7,6 +7,7 @@ import ListClientesComponent from './components/ListClientesComponent'
 import HeaderComponent from './components/HeaderComponent'
 import FooterComponent from './components/FooterComponent'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import AddClienteComponent from './components/AddClienteComponent'
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
         <Routes>
           <Route exact path='/' element={<ListClientesComponent/>}></Route>
           <Route path='/clientes' element={<ListClientesComponent/>}></Route>
+          <Route path='/add-clientes' element={<AddClienteComponent/>}></Route>
         </Routes>
       </div>
       <FooterComponent/>

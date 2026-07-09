@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import ClienteService from '../services/ClienteService';
+import { Link } from 'react-router-dom';
 
 const ListClientesComponent = () => {
   
@@ -18,6 +19,7 @@ const ListClientesComponent = () => {
   return (
     <div className='container'>
       <h2 className='text-center'>Lista de clientes</h2>
+      <Link to='/add-clientes' className='btn btn-primary mb-2'>Agregar cliente</Link>
       <table className='table table-bordered table-striped'>
         <thead>
             <tr>

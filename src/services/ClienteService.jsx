@@ -6,6 +6,10 @@ class ClienteService{
     getAllClientes(){
         return axios.get(CLIENTE_BASE_REST_API_URL);
     }
+
+    createCliente(cliente){
+        return axios.post(CLIENTE_BASE_REST_API_URL,cliente);
+    }
 }
 
 export default new ClienteService();
