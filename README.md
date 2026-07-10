@@ -1,4 +1,4 @@
-# Sistema de Gestión de Clientes - Frontend Client ⚛️
+# Sistema de Gestión de Clientes - Frontend Client 
 
 Este repositorio contiene la interfaz de usuario moderna, dinámica y responsiva del Sistema de Gestión de Clientes. Es una Single Page Application (SPA) desarrollada con React y Vite que consume de forma asíncrona los servicios expuestos por nuestra API en el backend.
 
