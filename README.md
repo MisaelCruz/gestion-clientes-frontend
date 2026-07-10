@@ -23,7 +23,7 @@ Este repositorio contiene la interfaz de usuario moderna, dinámica y responsiva
 
 ## Demostración Visual
 
-![Demostración del CRUD](src/assets/demo-crud.gif)
+![Demostración del CRUD](src/assets/demo-crud.gif.gif)
 
 ---
 
