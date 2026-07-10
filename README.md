@@ -23,9 +23,9 @@ Este repositorio contiene la interfaz de usuario moderna, dinámica y responsiva
 
 ## Demostración Visual
 
-
+![Demostración del CRUD](src/assets/demo-crud.gif)
 
 ---
 
 ## Backend Relacionado
-El código fuente de la API REST en Spring Boot y la configuración de la base de datos que alimenta esta aplicación se encuentra aquí: [Enlace al Repositorio Backend]
+El código fuente de la API REST en Spring Boot y la configuración de la base de datos que alimenta esta aplicación se encuentra aquí: [ \[Enlace al Repositorio Backend\]](https://github.com/MisaelCruz/gestion-clientes-backend)
